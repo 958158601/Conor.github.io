@@ -1,0 +1,81 @@
+/*Mobile priority css*/
+.main-header
+{
+    text-align: center;
+    background-color: skyblue;
+    padding-bottom: 0em;
+    
+    .logo{
+        margin: 2;
+            .logo a{
+                    padding:.5em 0;
+                    color: snow;
+                    }
+          }
+
+    .navlist li a{
+        padding: 1em 2em;
+        color: black;
+                .navlist li a:hover{
+                background-color: deepskyblue;
+                                    }
+                  } 
+    
+        a{
+        display: block;
+        color: white;
+        }  
+}
+
+/*Media query 700px wide*/
+@media (min-width:700px)
+{
+    .main-header{
+        display:flex;
+        justify-content:space-around;
+        align-items: center;
+                }
+
+.navlist
+    {
+    display: flex; 
+    }
+
+.navlist li a{
+    padding: 2em 2em;
+             }
+
+    .banner{
+        height: 600px;
+           }
+}
+
+.main-container{
+    text-align:center;
+    padding: 2em ;
+}
+
+header nav{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+header p{
+    padding: 0em 20px;
+    padding-bottom: 10px 20px;
+    margin: 0;
+    display: block;
+    background-color: grey;
+    color: white;
+    font-size: 18px;
+}
+
+header .row{
+  padding: 0.5em 0;
+}
+
+header .row h1 {
+  font-weight: 700;
+  margin: 0;
+}

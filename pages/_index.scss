@@ -1,0 +1,48 @@
+@import "../layout/header";
+@import "../layout/footer";
+@import "../layout/jumbotron";
+
+
+/*Media query 700px wide*/
+.wrap{
+    min-height: calc(100vh - 54px);
+    .banner{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 750px;
+    justify-content: center;
+    background-position: center;
+    background-color: white;
+    background-image: url(../images/0_1.jpg);
+    position: relative;
+        h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 60px;
+    padding-right: 120px;
+            }
+        }
+}
+
+/*Media query 700px wide*/
+@media (min-width:700px){
+    .main-header{
+        display:flex;
+        justify-content:space-around;
+        align-items: center;
+    }
+
+.navlist{
+    display:flex; 
+}
+
+.navlist li a{
+    padding: 2em 2em;
+}
+
+    .banner{
+        height: 600px;
+    }
+    
+}

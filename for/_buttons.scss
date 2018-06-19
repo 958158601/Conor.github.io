@@ -1,0 +1,38 @@
+.btn.btn-primary:hover {
+  color: white;
+  background-color:forestgreen;
+}
+
+.btn-secondary {
+  background-color: #ffffff;
+  color: black;
+  margin: 0 0 30px;
+}
+
+.btn-secondary:hover {
+  background-color: pink;
+  color: white;
+  margin: 0 0 30px;
+}
+
+.btn-secondary.col-sm-6 a{
+    display: block;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    color: black;
+}
+
+.col-sm-3{
+    padding-left: 105px;
+}
+.col-sm-3 .topp .toppa{
+    padding-left: 40px;
+    padding-right: 50px;
+    background-color: black;
+    display: block;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    color: white;
+}
